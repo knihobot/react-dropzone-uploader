@@ -6,6 +6,9 @@
 
 React Dropzone Uploader is a customizable file dropzone and uploader for React.
 
+*Note: This has been forked from [fortana-co/react-dropzone-uploader](https://github.com/fortana-co/react-dropzone-uploader) and modified to export .d.ts files
+instead of copying over the .tsx files for typescript support.*
+
 
 ## Features
 - Detailed file metadata and previews, especially for image, video and audio files

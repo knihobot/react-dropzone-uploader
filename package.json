@@ -1,6 +1,6 @@
 {
   "name": "@cruisecritic/react-dropzone-uploader",
-  "version": "2.12.5",
+  "version": "2.12.6",
   "author": "Kyle Bebak <kylebebak@gmail.com>",
   "description": "React file dropzone and uploader: fully customizable, progress indicators, upload cancellation and restart, zero deps and excellent TypeScript support",
   "main": "./dist/react-dropzone-uploader.js",
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/fortana-co/react-dropzone-uploader.git"
+    "url": "git://github.com/CruiseCritic/react-dropzone-uploader.git"
   },
   "license": "MIT",
   "peerDependencies": {
