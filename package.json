@@ -1,6 +1,6 @@
 {
   "name": "@knihobot/react-dropzone-uploader",
-  "version": "2.13.1",
+  "version": "2.13.2",
   "author": "Kyle Bebak <kylebebak@gmail.com>",
   "description": "React file dropzone and uploader: fully customizable, progress indicators, upload cancellation and restart, zero deps and excellent TypeScript support",
   "main": "./dist/react-dropzone-uploader.js",
@@ -78,7 +78,8 @@
     "build-docs": "./build_docs.sh",
     "test": "tsc && jest --coverage",
     "prettier-check": "prettier --check src/**/*.ts src/**/*.tsx",
-    "prettier": "prettier --write src/**/*.ts src/**/*.tsx"
+    "prettier": "prettier --write src/**/*.ts src/**/*.tsx",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "@babel/runtime": "^7.1.2"
