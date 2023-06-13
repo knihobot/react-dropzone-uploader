@@ -1,14 +1,22 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "esModuleInterop": true,
+    "target": "es5",
+    "lib": ["es6", "dom"],
     "jsx": "react",
-    "skipLibCheck": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
     "strict": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "checkJs": false,
+    "declaration": false,
+    "emitDeclarationOnly": false,
+    "resolveJsonModule": true,
     "outDir": "dist",
-    "declaration": true
   },
   "include": ["src/*.tsx", "src/*.ts"],
   "exclude": ["node_modules"]
