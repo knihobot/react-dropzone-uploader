@@ -6,6 +6,8 @@
 
 React Dropzone Uploader is a customizable file dropzone and uploader for React.
 
+*Forked from https://github.com/CruiseCritic/react-dropzone-uploader so we can add support for older browsers - tsconfig target set to es5*
+
 *Note: This has been forked from [fortana-co/react-dropzone-uploader](https://github.com/fortana-co/react-dropzone-uploader) and modified to export .d.ts files
 instead of copying over the .tsx files for typescript support.*
 
